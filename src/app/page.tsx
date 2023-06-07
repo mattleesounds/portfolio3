@@ -70,6 +70,13 @@ export default function Home() {
         />
         <ProjectCard
           type="Essay"
+          date="November 2022"
+          link="https://zippy-frangollo-058533.netlify.app/"
+          title="POLP Whitepaper"
+          description="The POLP whitepaper. Ideas for the business as of November 2022."
+        />
+        <ProjectCard
+          type="Essay"
           date="May 2022"
           link="https://paragraph.xyz/@matt/proof-of-listenership-protocol"
           title="Proof of Listenership Protocol"
