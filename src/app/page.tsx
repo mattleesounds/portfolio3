@@ -31,7 +31,7 @@ export default function Home() {
           date="In Progress"
           link="https://www.polp.app/"
           title="POLP"
-          description="Proof of Listenership Platform is a music streaming, discovery, and community management service that helps musicians find their superfans."
+          description="Proof of Listenership Platform is a music streaming, discovery, and community management service that helps musicians find their superfans. Currently in private beta."
         />
         <ProjectCard
           type="Project"
