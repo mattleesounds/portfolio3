@@ -27,6 +27,13 @@ export default function Home() {
       </div>
       <div className="flex-col md:px-16 w-full justify-center p-8">
         <ProjectCard
+          type="Essay"
+          date="June 2023"
+          link="https://paragraph.xyz/@matt/record-business"
+          title="On-chain Music and Social Networks: Unlocking the Digitally Native Record Business"
+          description="Decentralized open social protocols could be the game that unlocks the potential of on-chain music and revives the record industry."
+        />
+        <ProjectCard
           type="Project"
           date="In Progress"
           link="https://www.polp.app/"
