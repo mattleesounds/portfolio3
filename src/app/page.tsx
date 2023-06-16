@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ProjectCard from "./components/ProjectCard";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -19,11 +20,22 @@ export default function Home() {
             </h1>
           </div>
         </div>
-        <p>
+        <p className="pl-3">
           Building POLP(Proof of Listenership Platform). Exploring web3 and
           music tech, contributing to open source projects, and getting better
           all the time.
         </p>
+        <div className="py-8 px-4 flex">
+          <Link href="https://twitter.com/matt_p_lee" className="p-2">
+            <Image src="/2.png" alt="Twitter" width="40" height="40" />
+          </Link>
+          <Link href="https://warpcast.com/mattlee" className="p-2">
+            <Image src="/3.png" alt="Farcaster" width="40" height="40" />
+          </Link>
+          <Link href="https://github.com/mattleesounds" className="p-2">
+            <Image src="/icons.png" alt="GitHub" width="40" height="40" />
+          </Link>
+        </div>
       </div>
       <div className="flex-col md:px-16 w-full justify-center p-8">
         <ProjectCard
