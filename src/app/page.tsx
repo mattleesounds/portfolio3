@@ -21,9 +21,9 @@ export default function Home() {
           </div>
         </div>
         <p className="pl-3">
-          Building POLP(Proof of Listenership Platform). Exploring web3 and
-          music tech, contributing to open source projects, and getting better
-          all the time.
+          Computer Science master's student at the Univeraity of New Orleans.
+          Building cool stuff. Exploring web3 and music tech, contributing to
+          open source projects, and getting better all the time.
         </p>
         <div className="py-8 px-4 flex">
           <Link href="https://twitter.com/matt_p_lee" className="p-2">
