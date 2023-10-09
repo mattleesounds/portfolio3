@@ -27,7 +27,7 @@ export default function Home() {
         </p>
         <div className="py-8 px-4 flex">
           <Link href="/links" className="p-2">
-            <Image src="/spotify.png" alt="Music" width="40" height="40" />
+            <Image src="/spotify1.png" alt="Music" width="40" height="40" />
           </Link>
           <Link href="https://warpcast.com/mattlee" className="p-2">
             <Image src="/3.png" alt="Farcaster" width="40" height="40" />
