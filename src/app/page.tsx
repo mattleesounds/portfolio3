@@ -22,13 +22,13 @@ export default function Home() {
         </div>
         <p className="pl-3">
           {`Computer Science master's student at the University of New Orleans.
-          Building cool stuff. Exploring web3, AI, and music tech, contributing to
+          Building cool stuff. Exploring various technologies, contributing to
           open source projects, and getting better all the time.`}
         </p>
         <div className="py-8 px-4 flex">
-          <Link href="/links" className="p-2">
+          {/* <Link href="/links" className="p-2">
             <Image src="/spotify1.png" alt="Music" width="40" height="40" />
-          </Link>
+          </Link> */}
           <Link href="https://warpcast.com/mattlee" className="p-2">
             <Image src="/3.png" alt="Farcaster" width="40" height="40" />
           </Link>
@@ -41,6 +41,13 @@ export default function Home() {
         <ProjectCard
           type="Project"
           date="In Progress"
+          link="https://testflight.apple.com/join/OkeZWa7l"
+          title="Groovtap for IOS"
+          description="A rhythm game like no other for your phone. Available on TestFlight now."
+        />
+        <ProjectCard
+          type="Project"
+          date="October 2023"
           link="https://www.groovtap.com/"
           title="Groovtap"
           description="An educational rhythm game based on call-and-response, a style common in Jazz improvization"
