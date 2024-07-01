@@ -21,9 +21,7 @@ export default function Home() {
           </div>
         </div>
         <p className="pl-3">
-          {`Computer Science master's student at the University of New Orleans.
-          Building cool stuff. Exploring various technologies, contributing to
-          open source projects, and getting better all the time.`}
+          {`I build software. I make music. I ponder. I look around a bit.`}
         </p>
         <div className="py-8 px-4 flex">
           {/* <Link href="/links" className="p-2">

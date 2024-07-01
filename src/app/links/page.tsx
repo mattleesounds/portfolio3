@@ -5,17 +5,17 @@ const page = () => {
   return (
     <div className="p-0 text-center h-screen flex flex-col ">
       <h1 className="text-3xl mb-2 mt-3">Links Du Matt</h1>
-      <h2 className="text-xl">{`Listen to "All I Can Say"`}</h2>
+      <h2 className="text-xl">{`Listen to "Philosopher King"`}</h2>
       <div className="flex flex-col m-2 mb-0">
         <div className="mt-0 mb-8">
           <LinkButton
-            href="https://open.spotify.com/album/63cBEWxr6zJGRtlfA265nV?si=A2iwGJk7TZaZcDK1KE8qOQ"
+            href="https://open.spotify.com/album/5lx0qh3Imy7eeIu0P60xkz?si=Y-DNZ92MR-yz39niHxrj2Q"
             label="Spotify"
           />
         </div>
         <div className="mt-0 mb-8">
           <LinkButton
-            href="https://music.apple.com/us/album/all-i-can-say-single/1717985624"
+            href="https://music.apple.com/us/album/philosopher-king-single/1753771577"
             label="Apple Music"
           />
         </div>
