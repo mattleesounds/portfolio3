@@ -39,7 +39,7 @@ export default function Home() {
         <ProjectCard
           type="Project"
           date="February 2024"
-          link="https://warpcast.com/hughassle.eth/0x77fe9733"
+          link="https://www.nfeed.xyz/"
           title="Nfeed.xyz"
           description="A web app that allows users to share their music directly in their Farcaster feed as a frame"
         />
@@ -55,7 +55,7 @@ export default function Home() {
           date="December 2024"
           link="https://warpcast.com/hughassle.eth/0x855b05fe"
           title="Color Wars Frame"
-          description="Color Wars in a Farcaster frame"
+          description="Color Wars in a Farcaster frame. Must sign in to test frame."
         />
         <ProjectCard
           type="Project"
