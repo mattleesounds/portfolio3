@@ -38,8 +38,36 @@ export default function Home() {
       <div className="flex-col md:px-16 w-full justify-center p-8">
         <ProjectCard
           type="Project"
+          date="February 2024"
+          link="https://warpcast.com/hughassle.eth/0x77fe9733"
+          title="Nfeed.xyz"
+          description="A web app that allows users to share their music directly in their Farcaster feed as a frame"
+        />
+        <ProjectCard
+          type="Essay"
+          date="January 2024"
+          link="https://paragraph.xyz/@matt/dollarhug"
+          title="$HUG"
+          description="A creation coin experiment"
+        />
+        <ProjectCard
+          type="Project"
+          date="December 2024"
+          link="https://warpcast.com/hughassle.eth/0x855b05fe"
+          title="Color Wars Frame"
+          description="Color Wars in a Farcaster frame"
+        />
+        <ProjectCard
+          type="Project"
+          date="November 2024"
+          link="https://www.colorwars.fun"
+          title="Color Wars"
+          description="A game where onchain colors are chosen in one on one matchups with live leaderboard tracking"
+        />
+        <ProjectCard
+          type="Project"
           date="In Progress"
-          link="https://testflight.apple.com/join/OkeZWa7l"
+          //link="https://testflight.apple.com/join/OkeZWa7l"
           title="Groovtap for IOS"
           description="A rhythm game like no other for your phone. Available on TestFlight now."
         />
@@ -60,7 +88,7 @@ export default function Home() {
         <ProjectCard
           type="Project"
           date="In Progress"
-          link="https://www.polp.app/"
+          //link="https://www.polp.app/"
           title="POLP"
           description="Proof of Listenership Platform is a music streaming, discovery, and community management service that helps musicians find their superfans. Currently in private beta."
         />

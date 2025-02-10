@@ -3,7 +3,7 @@ import React from "react";
 type ProjectCardProps = {
   type: string;
   date: string;
-  link: string;
+  link?: string;
   title: string;
   description: string;
 };
@@ -21,10 +21,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         {type} <span className="text-black">| </span>{" "}
         <span className="text-slate-600">{date}</span>
       </h2>
-      <a className="text-2xl hover:text-blue-800" href={link}>
+      <a
+        className="text-2xl hover:text-blue-800"
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         {title}
       </a>
-      <p className=" text-left">{description}</p>
+      <p className="text-left">{description}</p>
     </div>
   );
 };
