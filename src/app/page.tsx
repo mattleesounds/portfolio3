@@ -38,6 +38,13 @@ export default function Home() {
       <div className="flex-col md:px-16 w-full justify-center p-8">
         <ProjectCard
           type="Project"
+          date="February 2024(ongoing)"
+          link="https://warpcast.com/tameel.eth/0xff697fde"
+          title="Nfeed Frame"
+          description="A Farcaster frame that allows users to share their music directly in their Farcaster feed"
+        />
+        <ProjectCard
+          type="Project"
           date="February 2024"
           link="https://www.nfeed.xyz/"
           title="Nfeed.xyz"
@@ -52,7 +59,7 @@ export default function Home() {
         />
         <ProjectCard
           type="Project"
-          date="December 2024"
+          date="December 2024(ongoing)"
           link="https://warpcast.com/hughassle.eth/0x855b05fe"
           title="Color Wars Frame"
           description="Color Wars in a Farcaster frame. Must sign in to test frame."
